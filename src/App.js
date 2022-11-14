@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Troll from "./images/troll.svg"
+import Meme from './Meme.js';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img className='troll--face' src={Troll} />
+        <h2 className='heading'>Meme Generator</h2>
+        <h4 className='h4'>React Project</h4>
       </header>
+      <Meme />
     </div>
   );
 }

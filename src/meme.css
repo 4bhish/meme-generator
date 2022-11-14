@@ -1,43 +1,3 @@
-.App {
-  text-align: center;
-  max-width: 550px;
-  width: 100%;
-  margin: auto;
-  align-items: center;
-}
-:root
-{
-  --color-bg : linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
-}
-
-
-/*Meme */
-.App-header
-{
-  display: flex;
-  align-items: center;
-  height: 40px;
-  width: 100%;
-  background: var(--color-bg);
-  color: white;
-  margin: auto;
-  padding: 20px;
-}
-.troll--face
-{
-  height: 100%;
-  margin-right: 6px;
-}
-.heading
-{
-  font-size: 20px;
-  margin-right: auto;
-}
-.heading--h4
-{
-  font-size: 12px;
-  font-size: 500;
-}
 main
 {
   padding: 36px;
@@ -47,7 +7,6 @@ main
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
   margin-bottom: 17px;
-  margin: auto;
 }
 
 .form--input {
@@ -55,7 +14,6 @@ main
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
-  
 }
 
 .form--button {
@@ -66,7 +24,6 @@ main
   color: white;
   border: none;
   cursor: pointer;
-  
 }
 
 
